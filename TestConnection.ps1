@@ -16,7 +16,7 @@ if ((Test-Path -Path $FilePath) -ne $true) {
     Write-Verbose "Starting to exit script"
     exit
 }
-
+<# this that new new bruh bruh#>
 if ($OutPutFilePath -ne "" -and (Test-Path $OutPutFilePath) -ne $true) {
 
     Write-Verbose "Creating the new Output File"
